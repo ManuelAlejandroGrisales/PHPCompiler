@@ -27,7 +27,7 @@ def p_declaration_list(p):
 def p_declaration(p):
     '''declaration : COMMENT
                    | COMMENT_HASHTAG
-                   | COMMENTMULTI
+                   | COMMENT_MULTI
                    | header_declaration
 				   | var_declaration
 				   | constant_declaration
